@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={outfit.className}>
-        <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className=''>
              <Navbar />
         {children}
         <Footer />

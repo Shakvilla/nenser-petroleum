@@ -113,7 +113,7 @@ function Navbar() {
     }, [])
 
     return (
-        <>
+        <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
             <nav
                 className={
                     scrolled
@@ -391,7 +391,7 @@ function Navbar() {
                     </Transition>
                 </Popover>
             </nav>
-        </>
+        </div>
     )
 }
 
