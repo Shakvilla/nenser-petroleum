@@ -13,8 +13,8 @@ const Hero = () => {
       {/* <video src={video} autoPlay={true} width="100%" height="100%" /> */}
 
       <ReactPlayer
-        // url="https://player.vimeo.com/external/651536065.sd.mp4?s=9e0fed2c16be5c0c13171a0cf44055d54e05e5c9&profile_id=164&oauth_token_id=57447761"
-        url="assets/videos/hero-video.mp4"
+        url="https://player.vimeo.com/external/394835713.sd.mp4?s=fdc0a162e4eaa040eb84ae539f6a1f9431a42f58&profile_id=164&oauth2_token_id=57447761"
+        // url="assets/videos/hero-video.mp4"
         playing={true}
         width="100%"
         height="100%"
