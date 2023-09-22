@@ -25,17 +25,19 @@ const Hero = () => {
       <div className="flex bg-slate-900/15 backdrop-brightness-75 top-0 absolute w-full h-full">
         <div className="flex container mx-auto px-4 sm:px-6 lg:px-8   h-full">
           <div className="container relative   py-14 lg:w-3/5 ">
-            <h1 className=" font-bold lg:font-extrabold text-[24px] lg:text-[80px]  text-white lg:leading-[80px]">
+            <h1 className=" font-bold lg:font-extrabold text-[35px] lg:text-[80px]  text-white leading-10 lg:leading-[80px]">
               Delivering Quality Petroleum Products and Storage Services
             </h1>
 
-            <span className="lg:w-[702px] lg:h-[142px] text-white text-xl lg:text-2xl font-normal lg:leading-7 lg:tracking-widest my-48">
-              Nenser is a leading distributor of quality petroleum products and
-              provider of storage services in Ghana and the West African
-              sub-region. With our extensive network and expertise, we ensure
-              reliable supply and efficient storage solutions to meet the needs
-              of our customers
-            </span>
+            <div className=" mt-4">
+              <span className="lg:w-[702px] lg:h-[142px] text-white text-xl lg:text-2xl font-normal lg:leading-7 lg:tracking-widest lg:my-48 mt-20 ">
+                Nenser is a leading distributor of quality petroleum products
+                and provider of storage services in Ghana and the West African
+                sub-region. With our extensive network and expertise, we ensure
+                reliable supply and efficient storage solutions to meet the
+                needs of our customers
+              </span>
+            </div>
 
             <div className="flex gap-y-4 gap-x-2 mt-8">
               <Link
