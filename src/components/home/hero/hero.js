@@ -9,7 +9,7 @@ import styles from "./hero.module.css";
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 const Hero = () => {
   return (
-    <div className="h-full relative top-0  backdrop-brightness-50  ">
+    <section className="h-full relative top-0  backdrop-brightness-50  ">
       {/* <video src={video} autoPlay={true} width="100%" height="100%" /> */}
 
       <ReactPlayer
@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
