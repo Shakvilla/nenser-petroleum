@@ -4,7 +4,7 @@ import ShortDescription from "@/components/home/short-description/ShortDescripti
 
 export default function Home() {
   return (
-    <main className="h-screen">
+    <main className="">
       <Hero />
       <ShortDescription />
     </main>

@@ -9,7 +9,7 @@ import styles from "./hero.module.css";
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 const Hero = () => {
   return (
-    <section className="h-full relative top-0  backdrop-brightness-50  ">
+    <div className="h-screen relative top-0  backdrop-brightness-50  ">
       {/* <video src={video} autoPlay={true} width="100%" height="100%" /> */}
 
       <ReactPlayer
@@ -30,7 +30,7 @@ const Hero = () => {
             </h1>
 
             <div className=" mt-4">
-              <span className="lg:w-[702px] lg:h-[142px] text-white text-xl lg:text-2xl font-normal lg:leading-7 lg:tracking-widest lg:my-48 mt-20 ">
+              <span className="lg:w-[702px] lg:h-[142px] text-white text-2xl font-normal lg:leading-7 lg:tracking-widest lg:my-48 mt-20 ">
                 Nenser is a leading distributor of quality petroleum products
                 and provider of storage services in Ghana and the West African
                 sub-region. With our extensive network and expertise, we ensure
@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
