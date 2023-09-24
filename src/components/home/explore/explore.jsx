@@ -14,7 +14,7 @@ const Explore = () => {
           </div>
         </div>
         <div className=" lg:w-2/5">
-          <span className=" lg:w-96 text-white text-base font-normal leading-normal tracking-wider my-3">
+          <span className=" lg:w-96 text-white text-lg font-normal leading-normal tracking-wider my-3">
             Discover our wide selection of high-quality products and services,
             including Fuel Products, terminal services, West African market
             services, downstream advisory. Our products are sourced from

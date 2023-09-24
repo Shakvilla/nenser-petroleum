@@ -11,7 +11,6 @@ const ShortDescription = () => {
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className=" flex flex-col lg:flex-row ">
         <div className="lg:w-1/2 container">
-          <div></div>
           <div className="left-0 mt-10 mb-2">
             <Image src={Cube} alt="cube" />
           </div>
@@ -29,8 +28,9 @@ const ShortDescription = () => {
             </h1>
 
             <Text>
-              At Nenser, we are committed to delivering top-notch petroleum
-              products and reliable storage services to meet your needs.
+              At <b className="text-yellow-600">Nenser,</b> we are committed to
+              delivering top-notch petroleum products and reliable storage
+              services to meet your needs.
             </Text>
 
             <div className="lg:flex gap-x-8">
@@ -51,7 +51,8 @@ const ShortDescription = () => {
                 <Text>
                   Specifically, we will provide the oil marketing companies
                   (OMCs) with high quality petroleum products to market to
-                  industrial entities and the public. NENSER will also supply
+                  industrial entities and the public.{" "}
+                  <b className="text-yellow-600">NENSER</b>, will also supply
                   bulk consumers and will offer highly efficient and
                   environmental safe petroleum products tank farm services to
                   its clients in the downstream sector of the oil and gas
