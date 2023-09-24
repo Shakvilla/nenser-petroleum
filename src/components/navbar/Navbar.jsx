@@ -346,26 +346,16 @@ function Navbar() {
                                     </span> */}
 
                   <div className="flex flex-col justify-between gap-y-4 gap-x-8">
-                    {/* {resources.map((item) => (
-                                            <Link
-                                                key={item.name}
-                                                href={item.href}
-                                                className="text-base font-normal text-gray-800"
-                                            >
-                                                {item.name}
-                                            </Link>
-                                        ))} */}
-
                     <Link
                       href="/contact"
-                      className="px-4 py-2 text-xs text-center text-yellow-500 border border-yellow-600 hover:bg-yellow-700 md:text-base font-base rounded"
+                      className="px-4 py-2 text-xs text-center text-yellow-500 border border-yellow-600 hover:bg-yellow-700 md:text-base hover:text-white font-base rounded"
                       target="_blank"
                     >
                       Learn more
                     </Link>
                     <Link
                       href="/contact"
-                      className="px-4 py-2 text-xs text-center text-gray-700 bg-yellow-500 rounded hover:bg-yellow-700 md:text-base font-base "
+                      className="px-4 py-2 text-xs text-center text-gray-700 bg-yellow-500 rounded hover:bg-yellow-700 hover:text-white md:text-base font-base "
                       target="_blank"
                     >
                       Contact Us
