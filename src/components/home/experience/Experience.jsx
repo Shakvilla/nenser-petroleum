@@ -6,7 +6,7 @@ import Text from "@/components/atoms/Text/Text";
 import Cube from "../../../../public/assets/images/Cube.svg";
 const Experience = () => {
   return (
-    <div className="flex container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="flex container mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 ">
       <div className="w-1/2 hidden md:block">
         <Image src={Engineer} alt="engineer" />
       </div>
