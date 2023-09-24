@@ -1,10 +1,8 @@
-"use client"
-import React from 'react'
+"use client";
+import React from "react";
 
 const Footer = () => {
-  return (
-    <div>This is the footer section</div>
-  )
-}
+  return <div className="">This is the footer section</div>;
+};
 
-export default Footer
+export default Footer;
