@@ -7,12 +7,12 @@ import Cube from "../../../../public/assets/images/Cube.svg";
 const Experience = () => {
   return (
     <div className="flex container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <div className="w-1/2">
+      <div className="w-1/2 hidden md:block">
         <Image src={Engineer} alt="engineer" />
       </div>
-      <div className="w-1/2">
+      <div className="lg:w-1/2">
         <div className=" container">
-          <div className="left-0 mt-10 mb-2">
+          <div className="hidden lg:block left-0 mt-10 mb-2">
             <Image src={Cube} alt="cube" />
           </div>
           <div className="py-10">
@@ -25,7 +25,9 @@ const Experience = () => {
               products and storage services with{" "}
               <span className="text-yellow-600">Nenser</span>
             </h1>
-
+            <div className="md:hidden my-4">
+              <Image src={Engineer} alt="engineer" />
+            </div>
             <Text>
               At <b className="text-yellow-600">Nenser</b>, we are committed to
               delivering top-notch petroleum products and reliable storage
