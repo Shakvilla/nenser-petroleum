@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="flex bg-slate-900/15 backdrop-brightness-75 top-0 absolute w-full h-full">
         <div className="flex container mx-auto px-4 sm:px-6 lg:px-8   h-full">
           <div className="container relative   py-14 lg:w-3/5 ">
-            <h1 className=" font-bold md:font-extrabold text-[35px] md:text-[80px] xl:text-[90px] text-white leading-10 md:leading-[80px] xl:leading-[90px] xxl:tracking-widest">
+            <h1 className=" font-bold md:font-extrabold text-[35px] md:text-[80px] xxl:text-[90px] text-white leading-10 md:leading-[80px] xxl:leading-[90px] xxl:tracking-widest">
               Delivering Quality Petroleum Products and Storage Services
             </h1>
 

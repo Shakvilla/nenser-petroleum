@@ -104,11 +104,11 @@ const WhoWeAre = () => {
     <>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* <Image src={NenserText} alt="Nenser Text" /> */}
-        <div className=" lg:justify-center gap-x-2 hidden lg:flex">
+        <div className=" justify-center gap-x-3 hidden lg:flex">
           {NenserText.map((t) => (
             <span
               key={t.id}
-              className=" text-9xl text-lime-900/25  font-extrabold"
+              className=" text-8xl text-lime-900/25  font-extrabold"
             >
               {t.letter}
             </span>
@@ -117,7 +117,7 @@ const WhoWeAre = () => {
           {NenserText2.map((t) => (
             <span
               key={t.id}
-              className=" text-9xl  text-lime-900/25 font-extrabold"
+              className=" text-8xl  text-lime-900/25 font-extrabold"
             >
               {t.letter}
             </span>
@@ -130,7 +130,7 @@ const WhoWeAre = () => {
                 {arr.title}
               </h1>
               <div className="flex justify-center mt-2 mb-1">{arr.image}</div>
-              <div>
+              <div className="flex flex-col justify-center mx-4">
                 <Text className="text-lg text-gray-800 ">{arr.desc}</Text>
                 <div className="my-3 flex items-center justify-center">
                   <Link
