@@ -4,7 +4,7 @@ import Link from "next/link";
 const Explore = () => {
   return (
     <div className=" bg-gradient-to-br from-lime-900 to-lime-900/70 py-5">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col lg:flex-row">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col lg:flex-row">
         <div className="">
           <h1 className="font-extrabold text-white text-normal leading-9 tracking-widest lg:text-yellow-400">
             Quality
