@@ -130,7 +130,7 @@ const WhoWeAre = () => {
                 {arr.title}
               </h1>
               <div className="flex justify-center mt-2 mb-1">{arr.image}</div>
-              <div className="flex flex-col justify-center mx-4">
+              <div className="flex flex-col justify-center">
                 <Text className="text-lg text-gray-800 ">{arr.desc}</Text>
                 <div className="my-3 flex items-center justify-center">
                   <Link
