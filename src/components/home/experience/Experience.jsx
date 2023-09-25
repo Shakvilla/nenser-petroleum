@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <div className="flex container mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 ">
       <div className="w-1/2 hidden md:block">
-        <Image src={Engineer} alt="engineer" />
+        <Image src={Engineer} alt="engineer" className="w-[550px] h-[700px]" />
       </div>
       <div className="lg:w-1/2">
         <div className=" container">
