@@ -2744,6 +2744,7 @@ __metadata:
     postcss: "npm:^8.4.29"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
+    react-icons: "npm:^4.11.0"
     react-player: "npm:^2.10.1"
     swiper: "npm:^10.3.0"
     tailwindcss: "npm:^3.3.3"
@@ -3248,6 +3249,15 @@ __metadata:
   version: 3.2.2
   resolution: "react-fast-compare@npm:3.2.2"
   checksum: 9a00b241dadc4715c2a985c02e87f62765e61aae48de5247df3ef09af2945fbbc079a218712a97955be39363967ac8e33bfdd01e6f37adefc5bf22bdf678b1bf
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^4.11.0":
+  version: 4.11.0
+  resolution: "react-icons@npm:4.11.0"
+  peerDependencies:
+    react: "*"
+  checksum: 1b88bd9bb84350c6b0c426b7266f6531aac770450411815b39958fbe5fbcede4c453cdaec7bc343a92ba5f793531c2eb7c97d2861e35ab16083d92cb1386a36c
   languageName: node
   linkType: hard
 

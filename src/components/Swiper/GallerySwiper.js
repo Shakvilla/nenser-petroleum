@@ -65,7 +65,7 @@ export default function GallerySwiper() {
         className="mySwiper"
       >
         {Gallery.map((gal) => (
-          <li key={gal.isd} className="rounded-lg ">
+          <li key={gal.id} className="rounded-lg ">
             <SwiperSlide>{gal.image}</SwiperSlide>
           </li>
         ))}
