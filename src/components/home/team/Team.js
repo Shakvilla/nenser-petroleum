@@ -2,10 +2,12 @@
 import React from "react";
 import MemberCard from "./MemberCard";
 
-import { BiLogoFacebook, BiLogoTwitter } from "react-icons/bi";
+import { BiLogoFacebook, BiLogoInstagram, BiLogoTwitter } from "react-icons/bi";
 import CEO from "../../../../public/assets/images/ceo.svg";
 import GM from "../../../../public/assets/images/GMN.svg";
-
+import Finance from "../../../../public/assets/images/finance.svg";
+import Executive from "../../../../public/assets/images/exec-director.svg";
+import MarketingManger from "../../../../public/assets/images/marketing-manager.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -13,6 +15,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import Text from "@/components/atoms/Text/Text";
 
 const Team = () => {
   const memberDetails = [
@@ -35,6 +38,11 @@ const Team = () => {
           icon: <BiLogoTwitter />,
           link: "#",
         },
+        {
+          id: 3,
+          icon: <BiLogoInstagram />,
+          link: "#",
+        },
       ],
     },
     {
@@ -51,6 +59,96 @@ const Team = () => {
           icon: <BiLogoFacebook />,
           link: "#",
         },
+        {
+          id: 2,
+          icon: <BiLogoTwitter />,
+          link: "#",
+        },
+        {
+          id: 3,
+          icon: <BiLogoInstagram />,
+          link: "#",
+        },
+      ],
+    },
+
+    {
+      id: 2,
+      image: Finance,
+      alt: "finance-manager",
+      name: "Cornelius M. Dapilaah",
+      role: "FINANCE MANAGER",
+      description:
+        "Cornelius is the Finance Manager of Nenser Petroleum Limited. He is a pragmatic Business Finance Analyst and Adviser with over",
+      socialMedia: [
+        {
+          id: 0,
+          icon: <BiLogoFacebook />,
+          link: "#",
+        },
+        {
+          id: 2,
+          icon: <BiLogoTwitter />,
+          link: "#",
+        },
+        {
+          id: 3,
+          icon: <BiLogoInstagram />,
+          link: "#",
+        },
+      ],
+    },
+
+    {
+      id: 3,
+      image: Executive,
+      alt: "finance-manager",
+      name: "Ayisha Maigah",
+      role: "EXECUTIVE DIRECTOR",
+      description:
+        "Madam Ayisha Maigah is an Executive Director of Nenser Petroleum. She is a certified teacher with a Diploma in...",
+      socialMedia: [
+        {
+          id: 0,
+          icon: <BiLogoFacebook />,
+          link: "#",
+        },
+        {
+          id: 2,
+          icon: <BiLogoTwitter />,
+          link: "#",
+        },
+        {
+          id: 3,
+          icon: <BiLogoInstagram />,
+          link: "#",
+        },
+      ],
+    },
+    {
+      id: 4,
+      image: MarketingManger,
+      alt: "marketin-manager",
+      name: "Faridah E Kudjo",
+      role: "MARKETING MANAGER",
+      description:
+        "Faridah Esinam Kudjo is an astute marketing professional. She is currently the sales and marketing manager of Nenser..",
+      socialMedia: [
+        {
+          id: 0,
+          icon: <BiLogoFacebook />,
+          link: "#",
+        },
+        {
+          id: 2,
+          icon: <BiLogoTwitter />,
+          link: "#",
+        },
+        {
+          id: 3,
+          icon: <BiLogoInstagram />,
+          link: "#",
+        },
       ],
     },
   ];
@@ -58,6 +156,9 @@ const Team = () => {
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 ">
       <div className="flex justify-center">
         <h1 className="font-extrabold text-4xl text-gray-800">Meet Our Team</h1>
+      </div>
+      <div>
+        <Text>Get to know the talented people behind Nenser Petroleum</Text>
       </div>
       <Swiper
         cssMode={true}
