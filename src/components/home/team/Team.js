@@ -160,7 +160,7 @@ const Team = () => {
       <div>
         <Text>Get to know the talented people behind Nenser Petroleum</Text>
       </div>
-      <div className="hidden  md:grid md:grid-cols-3 lg:grid-cols-5">
+      <div className="hidden  lg:grid md:grid-cols-3 lg:grid-cols-5">
         {memberDetails.map((member) => (
           <div key={member.id}>
             <>
@@ -177,7 +177,7 @@ const Team = () => {
         ))}
       </div>
 
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <Swiper
           cssMode={true}
           navigation={true}

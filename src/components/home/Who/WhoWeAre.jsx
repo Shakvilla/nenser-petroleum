@@ -123,7 +123,7 @@ const WhoWeAre = () => {
             </span>
           ))}
         </div>
-        <div className="md:flex">
+        <div className="lg:flex">
           {array.map((arr) => (
             <div className="flex flex-col items-center my-10" key={arr.id}>
               <h1 className="font-extrabold text-3xl text-gray-800 ">
