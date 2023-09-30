@@ -9,7 +9,7 @@ import SunRays from "../../../../public/assets/images/sun-rays.svg";
 const ShortDescription = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className=" flex flex-col lg:flex-row ">
+      <div className=" flex flex-col lg:flex-row " data-aos="zoom-in-up">
         <div className="lg:w-1/2 container">
           <div className="left-0 mt-10 mb-2">
             <Image src={Cube} alt="cube" />
@@ -66,7 +66,7 @@ const ShortDescription = () => {
           <Image src={OilRefinery} alt="oil-refinery" className="" />
         </div>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block" data-aos="zoom-in-up">
         <Image src={SunRays} alt="sun-rays" />
       </div>
     </div>

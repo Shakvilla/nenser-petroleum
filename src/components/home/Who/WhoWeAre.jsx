@@ -125,7 +125,11 @@ const WhoWeAre = () => {
         </div>
         <div className="lg:flex">
           {array.map((arr) => (
-            <div className="flex flex-col items-center my-10" key={arr.id}>
+            <div
+              className="flex flex-col items-center my-10"
+              key={arr.id}
+              data-aos="zoom-in-up"
+            >
               <h1 className="font-extrabold text-3xl text-gray-800 ">
                 {arr.title}
               </h1>

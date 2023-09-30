@@ -47,7 +47,10 @@ const products2 = [
 ];
 const Products = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 ">
+    <div
+      className="container mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 "
+      data-aos="zoom-in"
+    >
       <div className=" flex justify-center">
         <h1 className="font-extrabold text-4xl text-lime-900">Products</h1>
       </div>
@@ -60,7 +63,7 @@ const Products = () => {
           </h2>
 
           {products.map((p) => (
-            <div className="flex flex-col" key={p.id}>
+            <div className="flex flex-col" key={p.id} data-aos="zoom-in-up">
               {/* <Image src={FuelProducts} alt="fuel-products" className="py-2" /> */}
 
               {p.image}
@@ -88,7 +91,7 @@ const Products = () => {
           </h2> */}
 
           {products2.map((p) => (
-            <div className="flex flex-col" key={p.id}>
+            <div className="flex flex-col" key={p.id} data-aos="zoom-in-up">
               {/* <Image src={FuelProducts} alt="fuel-products" className="py-2" /> */}
 
               {p.image}

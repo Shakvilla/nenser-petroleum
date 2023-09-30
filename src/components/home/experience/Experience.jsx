@@ -6,7 +6,10 @@ import Text from "@/components/atoms/Text/Text";
 import Cube from "../../../../public/assets/images/Cube.svg";
 const Experience = () => {
   return (
-    <div className="flex container mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 ">
+    <div
+      className="flex container mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 "
+      data-aos="zoom-in-up"
+    >
       <div className="w-1/2 hidden lg:block">
         <Image src={Engineer} alt="engineer" className="w-[550px] h-[700px]" />
       </div>
