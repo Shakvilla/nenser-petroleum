@@ -47,7 +47,10 @@ const products2 = [
 ];
 const Products = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 ">
+    <div
+      className="container mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 "
+      data-aos="zoom-in"
+    >
       <div className=" flex justify-center">
         <h1 className="font-extrabold text-4xl text-lime-900">Products</h1>
       </div>
