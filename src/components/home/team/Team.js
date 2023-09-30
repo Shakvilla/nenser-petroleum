@@ -157,12 +157,14 @@ const Team = () => {
       <div className="flex justify-center">
         <h1 className="font-extrabold text-4xl text-gray-800">Meet Our Team</h1>
       </div>
-      <div>
-        <Text>Get to know the talented people behind Nenser Petroleum</Text>
+      <div className="flex lg:justify-center">
+        <span className="leading-normal tracking-wider text-normal md:text-lg font-normal lg:font-medium text-neutral-800  my-1">
+          Get to know the talented people behind Nenser Petroleum
+        </span>
       </div>
       <div className="hidden  lg:grid md:grid-cols-3 lg:grid-cols-5">
         {memberDetails.map((member) => (
-          <div key={member.id}>
+          <div key={member.id} data-aos="zoom-in-up">
             <>
               <MemberCard
                 image={member.image}
@@ -177,7 +179,7 @@ const Team = () => {
         ))}
       </div>
 
-      <div className="lg:hidden">
+      <div className="lg:hidden" data-aos="zoom-in-up">
         <Swiper
           cssMode={true}
           navigation={true}

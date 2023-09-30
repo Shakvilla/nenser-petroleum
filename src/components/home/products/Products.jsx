@@ -60,7 +60,7 @@ const Products = () => {
           </h2>
 
           {products.map((p) => (
-            <div className="flex flex-col" key={p.id}>
+            <div className="flex flex-col" key={p.id} data-aos="zoom-in-up">
               {/* <Image src={FuelProducts} alt="fuel-products" className="py-2" /> */}
 
               {p.image}
@@ -88,7 +88,7 @@ const Products = () => {
           </h2> */}
 
           {products2.map((p) => (
-            <div className="flex flex-col" key={p.id}>
+            <div className="flex flex-col" key={p.id} data-aos="zoom-in-up">
               {/* <Image src={FuelProducts} alt="fuel-products" className="py-2" /> */}
 
               {p.image}
