@@ -26,11 +26,17 @@ const MemberCard = ({
         <Text>{description}</Text>
       </div>
 
-      {socialMedia.map((social) => (
-        <div key={social.id}>
-          {<Link href={social.link}>{social.icon}</Link>}
-        </div>
-      ))}
+      <div className="flex gap-x-2 justify-center items-center my-3">
+        {socialMedia.map((social) => (
+          <div key={social.id}>
+            {
+              <Link href={social.link} className=" font-lg">
+                {social.icon}
+              </Link>
+            }
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

@@ -4,6 +4,8 @@ import MemberCard from "./MemberCard";
 
 import { BiLogoFacebook, BiLogoTwitter } from "react-icons/bi";
 import CEO from "../../../../public/assets/images/ceo.svg";
+import GM from "../../../../public/assets/images/GMN.svg";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -37,7 +39,7 @@ const Team = () => {
     },
     {
       id: 1,
-      image: CEO,
+      image: GM,
       alt: "general-manager",
       name: "Ida Mona Goh",
       role: "General Manager",
