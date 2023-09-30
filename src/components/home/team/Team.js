@@ -160,18 +160,10 @@ const Team = () => {
       <div>
         <Text>Get to know the talented people behind Nenser Petroleum</Text>
       </div>
-      <Swiper
-        cssMode={true}
-        navigation={true}
-        pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Pagination, Autoplay]}
-        className="mySwiper"
-      >
+      <div className="hidden  md:grid md:grid-cols-3 lg:grid-cols-5">
         {memberDetails.map((member) => (
           <div key={member.id}>
-            <SwiperSlide>
+            <>
               <MemberCard
                 image={member.image}
                 alt={member.alt}
@@ -180,10 +172,37 @@ const Team = () => {
                 description={member.description}
                 socialMedia={member.socialMedia}
               />
-            </SwiperSlide>
+            </>
           </div>
         ))}
-      </Swiper>
+      </div>
+
+      <div className="md:hidden">
+        <Swiper
+          cssMode={true}
+          navigation={true}
+          pagination={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Navigation, Pagination, Autoplay]}
+          className="mySwiper"
+        >
+          {memberDetails.map((member) => (
+            <div key={member.id}>
+              <SwiperSlide>
+                <MemberCard
+                  image={member.image}
+                  alt={member.alt}
+                  name={member.name}
+                  role={member.role}
+                  description={member.description}
+                  socialMedia={member.socialMedia}
+                />
+              </SwiperSlide>
+            </div>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };
