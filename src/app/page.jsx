@@ -5,6 +5,7 @@ import Gallery from "@/components/home/gallery/Gallery";
 import Hero from "@/components/home/hero/hero";
 import Products from "@/components/home/products/Products";
 import ShortDescription from "@/components/home/short-description/ShortDescription";
+import Team from "@/components/home/team/Team";
 // import Image from 'next/image'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Experience />
       <Products />
       <Gallery />
+      <Team />
     </main>
   );
 }
