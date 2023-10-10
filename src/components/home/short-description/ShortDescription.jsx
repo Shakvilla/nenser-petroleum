@@ -8,7 +8,7 @@ import OilRefinery from "../../../../public/assets/images/oil-refinery.svg";
 import SunRays from "../../../../public/assets/images/sun-rays.svg";
 const ShortDescription = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="container mx-auto px-8 sm:px-6 lg:px-16">
       <div className=" flex flex-col lg:flex-row " data-aos="zoom-in-up">
         <div className="lg:w-1/2 container">
           <div className="left-0 mt-10 mb-2">

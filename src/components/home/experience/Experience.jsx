@@ -7,7 +7,7 @@ import Cube from "../../../../public/assets/images/Cube.svg";
 const Experience = () => {
   return (
     <div
-      className="flex container mx-auto px-4 sm:px-6 lg:px-8 lg:py-16 "
+      className="flex container mx-auto px-8 sm:px-6 lg:px-16 lg:py-16 "
       data-aos="zoom-in-up"
     >
       <div className="w-1/2 hidden lg:block">
