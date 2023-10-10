@@ -30,7 +30,7 @@ const MemberCard = ({
         {socialMedia.map((social) => (
           <div key={social.id}>
             {
-              <Link href={social.link} className=" font-lg">
+              <Link href={social.link} className="">
                 {social.icon}
               </Link>
             }

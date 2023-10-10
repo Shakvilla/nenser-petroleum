@@ -5,7 +5,7 @@ const LetsTalk = () => {
   return (
     <div className=" bg-gradient-to-br from-lime-900 to-lime-900/70 py-5">
       <div
-        className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col lg:flex-row"
+        className="container mx-auto px-8 sm:px-6 lg:px-16 py-16 flex flex-col lg:flex-row"
         data-aos="zoom-in-up"
       >
         <div className="">
