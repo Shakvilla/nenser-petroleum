@@ -67,25 +67,25 @@ const resources = [
     name: "What we do",
     description:
       "Get all of your questions answered in our forums or contact support.",
-    href: "/about/what-we-do",
+    href: "/about",
     icon: SupportIcon,
   },
   {
     name: "Leadership",
     description: "For all our latest news and updates",
-    href: "/about/leadership",
+    href: "/about",
     icon: ChatAlt2Icon,
   },
   {
     name: "Our strategy",
     href: "Our target is simple, exceptional service to our customers...",
-    description: "/about/our-strategy",
+    description: "Our strategy",
     target: "_blank",
     icon: BookmarkAltIcon,
   },
   {
     name: "Partnership",
-    href: "/about/partnership",
+    href: "/about",
     description: "#",
     target: "_blank",
     icon: BookmarkAltIcon,
@@ -235,7 +235,7 @@ function Navbar() {
                 </Popover>
 
                 <Link
-                  href="/why-choose-us"
+                  href="/products-services"
                   className={
                     scrolled
                       ? "text-base font-medium text-yellow-500 hover:text-gray-900"
@@ -245,7 +245,7 @@ function Navbar() {
                   Products & Services
                 </Link>
                 <Link
-                  href="#"
+                  href="/products-services"
                   className={
                     scrolled
                       ? "text-base font-medium text-yellow-500 hover:text-gray-900"
@@ -255,7 +255,7 @@ function Navbar() {
                   HSE & Qualities
                 </Link>
 
-                <Link
+                {/* <Link
                   href="/contact-us"
                   className={
                     scrolled
@@ -264,7 +264,7 @@ function Navbar() {
                   }
                 >
                   Careers
-                </Link>
+                </Link> */}
               </Popover.Group>
               <div className="items-center justify-end hidden lg:flex md:flex-1 lg:w-0 ">
                 <Link
