@@ -268,16 +268,15 @@ function Navbar() {
               </Popover.Group>
               <div className="items-center justify-end hidden lg:flex md:flex-1 lg:w-0 ">
                 <Link
-                  href="#"
+                  href="/about"
                   className="px-4 py-2 mx-2 text-xs text-yellow-500 rounder-sm transition duration-500 ease-in-out transform border-2 rounded border-yellow-600 hover:-translate-y-1 hover:scale-110 md:text-base font-base"
                   target="_blank"
                 >
                   Learn more
                 </Link>
                 <Link
-                  href="https://app.reddeonline.com/register"
+                  href="/contact-us"
                   className="px-4 py-2 mx-2 text-xs text-gray-700 transition duration-500 ease-in-out transform bg-yellow-500 rounded hover:bg-yellow-700 hover:-translate-y-1 hover:scale-110 md:text-base font-base "
-                  target="_blank"
                 >
                   Contact Us
                 </Link>
