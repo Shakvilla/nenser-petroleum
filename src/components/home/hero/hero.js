@@ -28,8 +28,9 @@ const Hero = () => {
       >
         <div className="flex container mx-auto px-8 sm:px-6 lg:px-16   h-full">
           <div className="container relative   py-14 lg:w-3/5 ">
-            <h1 className=" font-bold md:font-extrabold text-[35px] md:text-[80px] xxl:text-[90px] text-white leading-10 md:leading-[80px] xxl:leading-[90px] xxl:tracking-widest">
-              Delivering Quality Petroleum Products and Storage Services
+            <h1 className=" font-bold md:font-extrabold text-[35px] md:text-[65px] xxl:text-[80px] text-white leading-10 md:leading-[70px] xxl:leading-[80px] xxl:tracking-widest">
+              Nenser Petroleum, Delivering Quality Petroleum Products and
+              Storage Services
             </h1>
 
             <div className=" mt-4">
