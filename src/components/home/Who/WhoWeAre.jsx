@@ -102,28 +102,32 @@ const array = [
 const WhoWeAre = () => {
   return (
     <>
-      <div className="container mx-auto px-8 sm:px-6 lg:px-16 py-8">
+      <div className="container mx-auto px-8 sm:px-6 lg:px-12 py-8">
         {/* <Image src={NenserText} alt="Nenser Text" /> */}
         <div className=" justify-center gap-x-3 hidden lg:flex">
-          {NenserText.map((t) => (
-            <span
-              key={t.id}
-              className=" text-8xl text-lime-900/25  font-extrabold"
-            >
-              {t.letter}
-            </span>
-          ))}
+          <div className="mr-3">
+            {NenserText.map((t) => (
+              <span
+                key={t.id}
+                className=" text-8xl text-lime-900/25  font-extrabold"
+              >
+                {t.letter}
+              </span>
+            ))}
+          </div>
 
-          {NenserText2.map((t) => (
-            <span
-              key={t.id}
-              className=" text-8xl  text-lime-900/25 font-extrabold"
-            >
-              {t.letter}
-            </span>
-          ))}
+          <div className="ml-2">
+            {NenserText2.map((t) => (
+              <span
+                key={t.id}
+                className=" text-8xl  text-lime-900/25 font-extrabold"
+              >
+                {t.letter}
+              </span>
+            ))}
+          </div>
         </div>
-        <div className="lg:flex">
+        <div className="lg:flex ">
           {array.map((arr) => (
             <div
               className="flex flex-col items-center my-10"
