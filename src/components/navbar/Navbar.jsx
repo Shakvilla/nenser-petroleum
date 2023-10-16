@@ -122,7 +122,7 @@ function Navbar() {
                 <Link href="/">
                   <span className="sr-only">Nenser</span>
 
-                  <Image src={Logo} width={130} height={50} alt="redde-logo" />
+                  <Image src={Logo} width={200} height={100} alt="redde-logo" />
                   {/* Nenser */}
                 </Link>
               </div>

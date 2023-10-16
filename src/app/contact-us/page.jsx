@@ -127,7 +127,7 @@ const index = () => {
                   <dt>
                     <span className="sr-only">Phone number</span>
                   </dt>
-                  <dd className="flex text-base text-indigo-50">
+                  <dd className="flex tex-base text-indigo-50">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

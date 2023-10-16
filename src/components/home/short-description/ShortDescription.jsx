@@ -8,8 +8,8 @@ import OilRefinery from "../../../../public/assets/images/oil-refinery.svg";
 import SunRays from "../../../../public/assets/images/sun-rays.svg";
 const ShortDescription = () => {
   return (
-    <div className="container mx-auto px-8 sm:px-6 lg:px-16">
-      <div className=" flex flex-col lg:flex-row " data-aos="zoom-in-up">
+    <div className="container mx-auto px-8 sm:px-6 lg:px-12">
+      <div className=" flex flex-col lg:flex-row  " data-aos="zoom-in-up">
         <div className="lg:w-1/2 container">
           <div className="left-0 mt-10 mb-2">
             <Image src={Cube} alt="cube" />
@@ -34,7 +34,7 @@ const ShortDescription = () => {
             </Text>
 
             <div className="lg:flex gap-x-8">
-              <div className="flex flex-col">
+              <div className="flex flex-col md:border-r-2 md:border-lime-900 md:pr-4">
                 <SubHeading>Quality</SubHeading>
                 <Text>
                   Our target is simple, exceptional service to our customers
@@ -62,11 +62,11 @@ const ShortDescription = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 items-center justify-center">
+        <div className="lg:w-1/2 flex items-end justify-center">
           <Image src={OilRefinery} alt="oil-refinery" className="" />
         </div>
       </div>
-      <div className="hidden md:block" data-aos="zoom-in-up">
+      <div className="hidden md:block " data-aos="zoom-in-up">
         <Image src={SunRays} alt="sun-rays" />
       </div>
     </div>
