@@ -82,6 +82,7 @@ const array = [
     title: " Who We Are",
     image: <Image src={Who} alt="who-we-are" className=" w-52 h-52" />,
     desc: "NENSER is a new Bulk Distributing Company (BDC) that distributes quality petroleum products and provides storage services to the Ghana and West African sub-region (land-locked countries) markets. NENSER is a private limited liability company, owned and fully operated by Ghanaians.",
+    path: "/who-are-we",
   },
 
   {
@@ -91,17 +92,19 @@ const array = [
       <Image src={prodserv} alt="product-services" className=" w-52 h-52" />
     ),
     desc: "Discover our wide selection of high-quality products and services, including Fuel Products, terminal services, West African market services, downstream advisory. Our products are sourced from reputable suppliers and undergo rigorous quality control to ensure optimal performance and..",
+    path: "/products-services",
   },
   {
     id: 2,
     title: " Our Stretegy",
     image: <Image src={strategy} alt="our-strategy" className=" w-52 h-52" />,
     desc: "Our target is simple, exceptional service to our customers that exceeds their expectations while building lasting relationships and trustworthiness even as we ensure that our people uphold the highest regulatory, health, safety, environmental and quality standards applicable anywhere in...",
+    path: "#",
   },
 ];
 const WhoWeAre = () => {
   return (
-    <>
+    <div class="relative inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
       <div className="container mx-auto px-8 sm:px-6 lg:px-12 py-8">
         {/* <Image src={NenserText} alt="Nenser Text" /> */}
         <div className=" justify-center gap-x-3 hidden lg:flex">
@@ -154,7 +157,7 @@ const WhoWeAre = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

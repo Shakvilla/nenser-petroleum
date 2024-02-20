@@ -16,7 +16,9 @@ const page = () => {
 
       <Experience />
       <About />
-      <Team />
+      <section id="#leadership">
+        <Team />
+      </section>
       <LetsTalk />
     </div>
   );

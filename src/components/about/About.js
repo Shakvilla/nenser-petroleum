@@ -85,6 +85,7 @@ const About = () => {
               <h1 className="font-extrabold text-3xl text-gray-800">
                 {p.title}
               </h1>
+
               <Text>{p.desc}</Text>
               {/* <div className="my-4">
                 <Link
