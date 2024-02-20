@@ -73,7 +73,7 @@ const resources = [
   {
     name: "Leadership",
     description: "For all our latest news and updates",
-    href: "/about",
+    href: "/about/#leadership",
     icon: ChatAlt2Icon,
   },
   {
