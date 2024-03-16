@@ -245,7 +245,7 @@ function Navbar() {
                   Products & Services
                 </Link>
                 <Link
-                  href="/products-services"
+                  href="/hse"
                   className={
                     scrolled
                       ? "text-base font-medium text-yellow-500 hover:text-gray-900"

@@ -8,25 +8,29 @@ import Text from "@/components/atoms/Text/Text";
 import Cube from "../../../../public/assets/images/Cube.svg";
 const CEOMessage = () => {
   return (
-    <div class="relative inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
+    <div className="relative inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
       <div
         className="flex container mx-auto px-8 sm:px-6 lg:px-16 lg:py-16 "
         data-aos="zoom-in-up"
       >
-        <SubHeading>Chairman Speech</SubHeading>
-        <Text>
-          Our goal is to be the primary distributor of choice, and to exceed
-          consumer expectations with each engagement, which will be accomplished
-          through effective service and continuous innovation. We have a strong
-          competitive edge and the technical know-how to help solve issues that
-          may arise within the downstream oil and gas industry, be it
-          operational inefficiencies, intermittent product shortages or the lack
-          of business acumen required for players to win.
-        </Text>
-        <div className="w-1/2 hidden lg:block">
-          <Image src={CEO} alt="engineer" className="w-[550px] h-[700px]" />
+        <div className="flex flex-col w-1/2 ">
+          <SubHeading>Chairman Speech</SubHeading>
+          <Text>
+            Our goal is to be the primary distributor of choice, and to exceed
+            consumer expectations with each engagement, which will be
+            accomplished through effective service and continuous innovation. We
+            have a strong competitive edge and the technical know-how to help
+            solve issues that may arise within the downstream oil and gas
+            industry, be it operational inefficiencies, intermittent product
+            shortages or the lack of business acumen required for players to
+            win.
+          </Text>
+          <div className="w-1/2 hidden lg:block absolute">
+            <Image src={CEO} alt="engineer" className="w-[550px] h-[700px]" />
+          </div>
         </div>
-        <div className="lg:w-1/2">
+
+        <div className="w-1/2">
           <div className=" container">
             <div className="hidden lg:block left-0 mt-10 mb-2">
               <Image src={Cube} alt="cube" />

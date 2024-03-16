@@ -72,13 +72,13 @@ const Products = () => {
               </h1>
               <Text>{p.desc}</Text>
               <div className="my-4">
-                <Link
+                {/* <Link
                   href={p.link}
                   className="px-4 py-2 text-xs text-center text-yellow-500 border border-yellow-600 hover:bg-yellow-700 md:text-base hover:text-white font-base rounded"
                   target="_blank"
                 >
                   Learn more
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}
@@ -100,13 +100,13 @@ const Products = () => {
               </h1>
               <Text>{p.desc}</Text>
               <div className="my-4">
-                <Link
+                {/* <Link
                   href={p.link}
                   className="px-4 py-2 text-xs text-center text-yellow-500 border border-yellow-600 hover:bg-yellow-700 md:text-base hover:text-white font-base rounded"
                   target="_blank"
                 >
                   Learn more
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}

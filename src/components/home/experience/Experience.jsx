@@ -6,7 +6,7 @@ import Text from "@/components/atoms/Text/Text";
 import Cube from "../../../../public/assets/images/Cube.svg";
 const Experience = () => {
   return (
-    <div class="relative inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
+    <div className="relative inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
       <div
         className="flex container mx-auto px-8 sm:px-6 lg:px-16 lg:py-16 "
         data-aos="zoom-in-up"

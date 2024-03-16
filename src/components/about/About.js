@@ -34,7 +34,7 @@ const products2 = [
       <Image src={WestAfrica} alt="west-africa-sub-region" className="py-2" />
     ),
     title: "Our Mission",
-    desc: "   Our mission involves four major activities. Offer consumers the best products, at the best prices through our modern facility. Building strong partnerships locally and in the land-locked West African sub-region. Invest in the best people and technology to exceed consumer expectations.Adhering to our risk framework to ensure consumers experience the highest health, safety, environmental and quality standards.",
+    desc: "  Our mission involves four major activities. Offer consumers the best products, at the best prices through our modern facility. Building strong partnerships locally and in the land-locked West African sub-region. Invest in the best people and technology to exceed consumer expectations.Adhering to our risk framework to ensure consumers experience the highest health, safety, environmental and quality standards.",
     link: "#",
   },
 ];
@@ -47,8 +47,8 @@ const About = () => {
       <div className=" flex justify-center">
         <h1 className="font-extrabold text-4xl text-lime-900">Our Company</h1>
       </div>
-      <div className="flex flex-col lg:flex-row">
-        <div className="mr-4">
+      <div className="flex flex-col lg:flex-row my-4">
+        <div className="m-4 w-1/2">
           <h2 className="font-extrabold text-3xl my-4">
             We are focused on <span className="text-lime-900"> real-time</span>{" "}
             trading that creates real,{" "}
@@ -63,7 +63,9 @@ const About = () => {
               <h1 className="font-extrabold text-3xl text-gray-800">
                 {p.title}
               </h1>
-              <Text>{p.desc}</Text>
+              <div>
+                <Text>{p.desc}</Text>
+              </div>
               {/* <div className="my-4">
                 <Link
                   href={p.link}
@@ -76,7 +78,7 @@ const About = () => {
             </div>
           ))}
         </div>
-        <div>
+        <div className="w-1/2">
           {products2.map((p) => (
             <div className="flex flex-col" key={p.id} data-aos="zoom-in-up">
               {/* <Image src={FuelProducts} alt="fuel-products" className="py-2" /> */}
@@ -86,7 +88,9 @@ const About = () => {
                 {p.title}
               </h1>
 
-              <Text>{p.desc}</Text>
+              <div className="  ">
+                <Text>{p.desc}</Text>
+              </div>
               {/* <div className="my-4">
                 <Link
                   href={p.link}
