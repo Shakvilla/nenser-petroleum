@@ -2485,6 +2485,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"loadash@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "loadash@npm:1.0.0"
+  checksum: 7e07fe3a065e14d941c16a844cc46bd07712f936e7bed0e42bd587d44c7cac75dd6cfa1bac7a7f95db1903e3dc7770cf2846f7ee28583bfbcac98c970aaae604
+  languageName: node
+  linkType: hard
+
 "locate-path@npm:^6.0.0":
   version: 6.0.0
   resolution: "locate-path@npm:6.0.0"
@@ -2773,6 +2780,7 @@ __metadata:
     eslint: "npm:8.49.0"
     eslint-config-next: "npm:13.4.19"
     framer-motion: "npm:^10.16.4"
+    loadash: "npm:^1.0.0"
     next: "npm:13.4.19"
     postcss: "npm:^8.4.29"
     react: "npm:18.2.0"

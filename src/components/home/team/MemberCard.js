@@ -5,28 +5,41 @@ import Text from "@/components/atoms/Text/Text";
 import Link from "next/link";
 const MemberCard = ({
   image,
+  id,
   alt,
   name,
   role,
   description,
+  short_desc,
   socialMedia = [],
 }) => {
   return (
-    <div className="flex flex-col p-8 ">
+    <div className="flex flex-col p-8">
       <div className="flex justify-center items-center">
-        <Image src={image} alt={alt} width={150} height={150} />
+        <Image src={image} alt={alt} width={120} height={120} />
       </div>
-      <div className="flex justify-center items-center">
-        <SubHeading>{name}</SubHeading>
+      <div className="flex justify-center items-center mt-2">
+        <h3 className="leading-normal  text-normal font-bold text-neutral-800 my-1">
+          {name}
+        </h3>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center uppercase">
         <Text>{role}</Text>
       </div>
-      <div>
-        <Text>{description}</Text>
+      <div className=" h-28">
+        <Text custom="">{short_desc}</Text>
+      </div>
+      <div className="flex justify-center items-center">
+        <Link
+          href={`/team/${id}`}
+          passHref
+          className="text-blue-500 hover:text-blue-600"
+        >
+          Read more
+        </Link>
       </div>
 
-      <div className="flex gap-x-2 justify-center items-center my-3">
+      <div className="flex gap-x-2 justify-center items-center">
         {socialMedia.map((social) => (
           <div key={social.id}>
             {

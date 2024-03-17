@@ -104,7 +104,7 @@ const array = [
 ];
 const WhoWeAre = () => {
   return (
-    <div class="relative inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
+    <div class="">
       <div className="container mx-auto px-8 sm:px-6 lg:px-12 py-8">
         {/* <Image src={NenserText} alt="Nenser Text" /> */}
         <div className=" justify-center gap-x-3 hidden lg:flex">
@@ -145,9 +145,9 @@ const WhoWeAre = () => {
                 <Text className="text-lg text-gray-800">{arr.desc}</Text>
                 <div className="my-3 flex items-center justify-center">
                   <Link
-                    href="/contact"
+                    href="/products-services"
                     className="px-4 py-2 text-xs text-center text-yellow-500 border border-yellow-600 hover:bg-yellow-700 md:text-base hover:text-white font-base rounded"
-                    target="_blank"
+                    // target="_blank"
                   >
                     Learn more
                   </Link>
