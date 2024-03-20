@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 const Gallery = [
   {

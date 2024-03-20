@@ -2,7 +2,7 @@ import React from "react";
 import Engineer from "../../../../public/assets/images/engineers.svg";
 import CEO from "../../../../public/assets/images/ceo.svg";
 
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import SubHeading from "@/components/atoms/SubHeading/SubHeading";
 import Text from "@/components/atoms/Text/Text";
 import Cube from "../../../../public/assets/images/Cube.svg";
@@ -26,14 +26,18 @@ const CEOMessage = () => {
             win.
           </Text>
           <div className="w-1/2 hidden lg:block absolute">
-            <Image src={CEO} alt="engineer" className="w-[550px] h-[700px]" />
+            <ExportedImage
+              src={CEO}
+              alt="engineer"
+              className="w-[550px] h-[700px]"
+            />
           </div>
         </div>
 
         <div className="w-1/2">
           <div className=" container">
             <div className="hidden lg:block left-0 mt-10 mb-2">
-              <Image src={Cube} alt="cube" />
+              <ExportedImage src={Cube} alt="cube" />
             </div>
             <div className="py-10">
               <h1
@@ -49,7 +53,7 @@ const CEOMessage = () => {
                 <span className="text-yellow-600">Nenser</span>
               </h1>
               <div className="lg:hidden my-4">
-                <Image src={Engineer} alt="engineer" />
+                <ExportedImage src={Engineer} alt="engineer" />
               </div>
               <Text>
                 At <b className="text-yellow-600">Nenser</b>, we are committed

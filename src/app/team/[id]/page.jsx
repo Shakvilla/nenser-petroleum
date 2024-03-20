@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Hero from "@/components/hero/Hero";
 // import find from "loadash";
 import { memberDetails } from "@/data";
@@ -30,7 +30,7 @@ const Name = ({ params }) => {
         <div className="relative py-16 px-4 md:px-8 flex flex-col lg:flex-row gap-x-4 h-full">
           <div className="w-full flex justify-center py-4 border-2 border-yellow-500 rounded-lg">
             {/* <div className=""> */}
-            <Image
+            <ExportedImage
               src={userData[0].full_image}
               alt={userData[0].alt}
               width={450}
