@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import React from "react";
 import Cube from "../../../../public/assets/images/Cube.svg";
 import CurvedArrow from "../../../../public/assets/images/curved-arrow.svg";
@@ -13,7 +13,7 @@ const ShortDescription = () => {
         <div className=" flex flex-col lg:flex-row  " data-aos="zoom-in-up">
           <div className="lg:w-1/2 container">
             <div className="left-0 mt-10 mb-2">
-              <Image src={Cube} alt="cube" />
+              <ExportedImage src={Cube} alt="cube" />
             </div>
             <div>
               <h1
@@ -21,7 +21,8 @@ const ShortDescription = () => {
                 tracking-[2.56px] "
               >
                 <span className="flex items-center gap-x-1">
-                  Experience the <Image src={CurvedArrow} alt="curve-arrow" />
+                  Experience the{" "}
+                  <ExportedImage src={CurvedArrow} alt="curve-arrow" />
                 </span>{" "}
                 highest quality{" "}
                 <span className="text-lime-800"> Petroleum</span> products and
@@ -65,7 +66,7 @@ const ShortDescription = () => {
             </div>
           </div>
           <div className="lg:w-1/2 flex items-end justify-center">
-            <Image
+            <ExportedImage
               src={OilRefinery}
               alt="oil-refinery"
               className=""
@@ -75,7 +76,7 @@ const ShortDescription = () => {
           </div>
         </div>
         <div className="hidden md:block " data-aos="zoom-in-up">
-          <Image src={SunRays} alt="sun-rays" />
+          <ExportedImage src={SunRays} alt="sun-rays" />
         </div>
       </div>
     </div>

@@ -112,54 +112,54 @@ He is a mechanical Engineer of Ecole Spéciale de Mécanique et d’Electricité
       },
     ],
   },
-  {
-    id: 3,
-    image: GM,
-    alt: `general-manager`,
-    name: `Ida Mona Goh`,
-    role: `GM Marketing`,
-    full_image: ada,
-    short_desc: `Ida is a commercial and business development professional in the downstream oil sector...`,
-    description: [
-      {
-        id: 1,
-        paragraph: `Ida Mona Goh is a commercial and business development professional in the downstream oil sector, with significant  years of experience in commercial activities in the oil industry, particularly in oil trading. At present, Ida is the General  Manager for Nenser Petroleum Limited, and prior to this role, she was the Head of Business for Ebony Oil and Gas Limited..`,
-      },
-      {
-        id: 2,
-        paragraph: `Ida holds a Bachelor of Arts degree in Economics from the Kwame Nkrumah
-University of Science and Technology (KNUST), and a Master’s in Business
-Administration from the Australian Institute of Business. She has also participated in several executive training programmes in oil trading with both local and top global institutions such as British Petroleum and CITAC Training Institute. `,
-      },
-      {
-        id: 3,
-        paragraph: `Starting as a risk and internal control officer and later climbing through the ranks  to become a Finance MIS Analyst, a Commerce Analyst, and then the Head of Business, during which time she managed trade, operations, sales and marketing functions, Ida has garnered a wealth of invaluable experience that have sharpened her skillset and prepped her for her current role. .`,
-      },
-      {
-        id: 4,
-        paragraph: `She has distinguished herself as a dynamic oil and gas professional who is able to perform in a rapid-paced, high-pressure environment, and who can develop successful business strategies while minimising risk..`,
-      },
-    ],
-    // description:
-    //   `Ida is a commercial and business development professional in the downstream oil sector, at present she is the General Manager of Nenser `,
-    socialMedia: [
-      {
-        id: 31,
-        icon: <BiLogoFacebook />,
-        link: `#`,
-      },
-      {
-        id: 21,
-        icon: <BiLogoTwitter />,
-        link: `#`,
-      },
-      {
-        id: 22,
-        icon: <BiLogoInstagram />,
-        link: `#`,
-      },
-    ],
-  },
+  //   {
+  //     id: 3,
+  //     image: GM,
+  //     alt: `general-manager`,
+  //     name: `Ida Mona Goh`,
+  //     role: `GM Marketing`,
+  //     full_image: ada,
+  //     short_desc: `Ida is a commercial and business development professional in the downstream oil sector...`,
+  //     description: [
+  //       {
+  //         id: 1,
+  //         paragraph: `Ida Mona Goh is a commercial and business development professional in the downstream oil sector, with significant  years of experience in commercial activities in the oil industry, particularly in oil trading. At present, Ida is the General  Manager for Nenser Petroleum Limited, and prior to this role, she was the Head of Business for Ebony Oil and Gas Limited..`,
+  //       },
+  //       {
+  //         id: 2,
+  //         paragraph: `Ida holds a Bachelor of Arts degree in Economics from the Kwame Nkrumah
+  // University of Science and Technology (KNUST), and a Master’s in Business
+  // Administration from the Australian Institute of Business. She has also participated in several executive training programmes in oil trading with both local and top global institutions such as British Petroleum and CITAC Training Institute. `,
+  //       },
+  //       {
+  //         id: 3,
+  //         paragraph: `Starting as a risk and internal control officer and later climbing through the ranks  to become a Finance MIS Analyst, a Commerce Analyst, and then the Head of Business, during which time she managed trade, operations, sales and marketing functions, Ida has garnered a wealth of invaluable experience that have sharpened her skillset and prepped her for her current role. .`,
+  //       },
+  //       {
+  //         id: 4,
+  //         paragraph: `She has distinguished herself as a dynamic oil and gas professional who is able to perform in a rapid-paced, high-pressure environment, and who can develop successful business strategies while minimising risk..`,
+  //       },
+  //     ],
+  //     // description:
+  //     //   `Ida is a commercial and business development professional in the downstream oil sector, at present she is the General Manager of Nenser `,
+  //     socialMedia: [
+  //       {
+  //         id: 31,
+  //         icon: <BiLogoFacebook />,
+  //         link: `#`,
+  //       },
+  //       {
+  //         id: 21,
+  //         icon: <BiLogoTwitter />,
+  //         link: `#`,
+  //       },
+  //       {
+  //         id: 22,
+  //         icon: <BiLogoInstagram />,
+  //         link: `#`,
+  //       },
+  //     ],
+  //   },
 
   {
     id: 4,
@@ -168,7 +168,7 @@ Administration from the Australian Institute of Business. She has also participa
     name: `Cornelius Dapilaah`,
     short_desc: `Cornelius is the Finance Manager of Nenser Petroleum Limited. He is a pragmatic...`,
     full_image: cornilius,
-    role: `FINANCE MANAGER`,
+    role: `FINANCE MANAGER & PLANNING`,
     description: [
       {
         id: 1,

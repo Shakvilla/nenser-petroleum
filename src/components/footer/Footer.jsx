@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import FooterLogo from "../../../public/assets/images/logo.svg";
 
 const navigation = [
@@ -36,7 +36,7 @@ function Footer() {
     <>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8   ">
         <div className="sm:flex sm:flex-wrap  md:py-4 items-start">
-          <Image
+          <ExportedImage
             src={FooterLogo}
             width={200}
             height={150}

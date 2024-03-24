@@ -8,7 +8,7 @@ import CEOMessage from "@/components/home/message-ceo/CEOMessage";
 import Products from "@/components/home/products/Products";
 import ShortDescription from "@/components/home/short-description/ShortDescription";
 import Team from "@/components/home/team/Team";
-// import Image from 'next/image'
+// import ExportedImage from 'next/image'
 
 export default function Home() {
   return (

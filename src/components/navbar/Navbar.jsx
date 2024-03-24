@@ -18,7 +18,7 @@ import {
   ChevronUpIcon,
 } from "@heroicons/react/solid";
 import Link from "next/link";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 // import ReddeLogoRed from '../../public/assets/Logos/redde-logo.png'
 
 import Logo from "../../../public/assets/images/logo.svg";
@@ -122,7 +122,12 @@ function Navbar() {
                 <Link href="/">
                   <span className="sr-only">Nenser</span>
 
-                  <Image src={Logo} width={200} height={100} alt="redde-logo" />
+                  <ExportedImage
+                    src={Logo}
+                    width={200}
+                    height={100}
+                    alt="redde-logo"
+                  />
                   {/* Nenser */}
                 </Link>
               </div>
@@ -244,7 +249,7 @@ function Navbar() {
                 >
                   Products & Services
                 </Link>
-                <Link
+                {/* <Link
                   href="/hse"
                   className={
                     scrolled
@@ -253,7 +258,7 @@ function Navbar() {
                   }
                 >
                   HSE & Qualities
-                </Link>
+                </Link> */}
 
                 {/* <Link
                   href="/contact-us"
@@ -301,7 +306,7 @@ function Navbar() {
                 <div className="px-5 pt-5 pb-6">
                   <div className="flex items-center justify-between">
                     <Link href="/">
-                      <Image
+                      <ExportedImage
                         className="w-16 h-8 sm:h-10"
                         src={Logo}
                         alt="#"

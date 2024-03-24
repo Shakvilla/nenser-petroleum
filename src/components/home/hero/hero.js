@@ -5,7 +5,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import styles from "./hero.module.css";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
     <div className="h-[75vh] lg:h-[70vh] md:h-[40vh] relative top-0  backdrop-brightness-50  ">
       {/* <video src={video} autoPlay={true} width="100%" height="100%" /> */}
 
-      <Image
+      <ExportedImage
         // url="https://player.vimeo.com/external/394835713.sd.mp4?s=fdc0a162e4eaa040eb84ae539f6a1f9431a42f58&profile_id=164&oauth2_token_id=57447761"
         // url="assets/videos/hero-video.mp4"
         // playing={true}
@@ -31,7 +31,7 @@ const Hero = () => {
           data-aos="zoom-in-up"
         >
           {/* <div className="flex items-center justify-center mt-10">
-            <Image
+            <ExportedImage 
               // url="https://player.vimeo.com/external/394835713.sd.mp4?s=fdc0a162e4eaa040eb84ae539f6a1f9431a42f58&profile_id=164&oauth2_token_id=57447761"
               // url="assets/videos/hero-video.mp4"
               // playing={true}

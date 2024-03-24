@@ -1,6 +1,6 @@
 // src/components/Carousel.js
 import React, { useState } from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 const Carousel = ({ images }) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -18,7 +18,7 @@ const Carousel = ({ images }) => {
   return (
     <div className="relative">
       <div className="w-full relative">
-        <Image
+        <ExportedImage
           src={images[activeIndex]}
           alt={`Image ${activeIndex + 1}`}
           className="w-full h-auto"

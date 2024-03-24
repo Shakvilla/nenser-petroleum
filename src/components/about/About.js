@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import React from "react";
 import FuelProducts from "../../../public/assets/images/fuel-pro.svg";
 import Text from "@/components/atoms/Text/Text";
@@ -10,7 +10,9 @@ import Advisory from "../../../public/assets/images/down-stream-advisory.svg";
 const products = [
   {
     id: 0,
-    image: <Image src={FuelProducts} alt="fuel-products" className="py-2" />,
+    image: (
+      <ExportedImage src={FuelProducts} alt="fuel-products" className="py-2" />
+    ),
     title: "Our Vision",
     desc: "   We will become the primary BDC of choice for product supply and storage facility operations for Ghana and land-locked West African sub-region petroleum sector consumers through effective service and continuous innovation that exceeds their expectations.",
     link: "#",
@@ -19,7 +21,11 @@ const products = [
   {
     id: 1,
     image: (
-      <Image src={TerminalService} alt="terminal-service" className="py-2" />
+      <ExportedImage
+        src={TerminalService}
+        alt="terminal-service"
+        className="py-2"
+      />
     ),
     title: "Our core values",
     desc: "   Every day we operate, we shall strive to enshrine these core values into the way we work because we believe that they are the keys to success for NENSER:",
@@ -31,7 +37,11 @@ const products2 = [
   {
     id: 0,
     image: (
-      <Image src={WestAfrica} alt="west-africa-sub-region" className="py-2" />
+      <ExportedImage
+        src={WestAfrica}
+        alt="west-africa-sub-region"
+        className="py-2"
+      />
     ),
     title: "Our Mission",
     desc: "  Our mission involves four major activities. Offer consumers the best products, at the best prices through our modern facility. Building strong partnerships locally and in the land-locked West African sub-region. Invest in the best people and technology to exceed consumer expectations.Adhering to our risk framework to ensure consumers experience the highest health, safety, environmental and quality standards.",
@@ -57,7 +67,7 @@ const About = () => {
 
           {products.map((p) => (
             <div className="flex flex-col" key={p.id} data-aos="zoom-in-up">
-              {/* <Image src={FuelProducts} alt="fuel-products" className="py-2" /> */}
+              {/* <ExportedImage  src={FuelProducts} alt="fuel-products" className="py-2" /> */}
 
               {p.image}
               <h1 className="font-extrabold text-3xl text-gray-800">
@@ -81,7 +91,7 @@ const About = () => {
         <div className="w-1/2">
           {products2.map((p) => (
             <div className="flex flex-col" key={p.id} data-aos="zoom-in-up">
-              {/* <Image src={FuelProducts} alt="fuel-products" className="py-2" /> */}
+              {/* <ExportedImage  src={FuelProducts} alt="fuel-products" className="py-2" /> */}
 
               {p.image}
               <h1 className="font-extrabold text-3xl text-gray-800">

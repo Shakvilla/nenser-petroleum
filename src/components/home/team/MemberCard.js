@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import SubHeading from "@/components/atoms/SubHeading/SubHeading";
 import Text from "@/components/atoms/Text/Text";
 import Link from "next/link";
@@ -16,7 +16,7 @@ const MemberCard = ({
   return (
     <div className="flex flex-col p-8">
       <div className="flex justify-center items-center">
-        <Image src={image} alt={alt} width={120} height={120} />
+        <ExportedImage src={image} alt={alt} width={120} height={120} />
       </div>
       <div className="flex justify-center items-center mt-2">
         <h3 className="leading-normal  text-normal font-bold text-neutral-800 my-1">
