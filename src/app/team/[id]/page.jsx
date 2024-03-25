@@ -19,10 +19,10 @@ const Name = ({ params }) => {
         <div className="flex justify-center flex-col items-center relative h-full">
           <h1 className="font-extrabold text-white text-4xl">
             {/* {params.id} */}
-            {userData[0].name}
+            {userData[0]?.name}
           </h1>
           <h3 className="leading-normal tracking-wider text-xl font-bold text-white my-1">
-            {userData[0].role}
+            {userData[0]?.role}
           </h3>
         </div>
       </Hero>
@@ -31,8 +31,8 @@ const Name = ({ params }) => {
           <div className="w-full flex justify-center py-4 border-2 border-yellow-500 rounded-lg">
             {/* <div className=""> */}
             <ExportedImage
-              src={userData[0].full_image}
-              alt={userData[0].alt}
+              src={userData[0]?.full_image}
+              alt={userData[0]?.alt}
               width={450}
               height={500}
               className="border rounded-lg shadow-xl"
@@ -42,9 +42,9 @@ const Name = ({ params }) => {
 
           <div className="w-full">
             {userData[0].description.map((desc) => (
-              <div key={desc.id}>
+              <div key={desc?.id}>
                 <p className="leading-normal tracking-wider text-lg font-normal text-neutral-800 my-1">
-                  {desc.paragraph}
+                  {desc?.paragraph}
                 </p>
               </div>
             ))}

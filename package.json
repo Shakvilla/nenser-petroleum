@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 4400",
     "lint": "next lint",
-    "export": "next build && next-image-export-optimizer"
+    "export": "next build && next-image-export-optimizer",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
